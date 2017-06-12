@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/txtDescriptionStep1"
+        style="@style/TextView"
+        android:text="@string/sub_title_complete_complain" />
+
+    <!-- plate Number Label -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginBottom="@dimen/dimen_x3_5"
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_license_plate_number"
+            android:hint="@string/field_license_plate_number"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/idLblAddress"
+        style="@style/TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="2dip"
+        android:text="@string/address_automatly"  />
+
+    <ImageView
+        android:layout_width="@dimen/dimen_x3_100"
+        android:layout_height="@dimen/dimen_x1_200"
+        android:background="#c0c0c0" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginBottom="@dimen/dimen_x3_5"
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_additional_comment"
+            android:hint="@string/additional_comment"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_view_time"
+        style="@style/TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="2dip"
+        android:text="@string/view_time"  />
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        style="@style/TextView"
+        android:layout_width="fill_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock" />
+
+</LinearLayout>

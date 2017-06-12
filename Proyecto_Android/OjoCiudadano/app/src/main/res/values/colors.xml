@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#086601</color>
+    <color name="colorPrimaryDark">#086601</color>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    -->
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="grey">#d1d1d1</color>
+    <color name="red_brand">#086601</color>
+    <color name="red_dark_brand">#086601</color>
+</resources>

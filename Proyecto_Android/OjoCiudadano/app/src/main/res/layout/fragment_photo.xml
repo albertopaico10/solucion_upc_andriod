@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_take_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtDescriptionStep1"
+        style="@style/TextView"
+        android:text="@string/sub_title_take_photo" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rw_photo_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

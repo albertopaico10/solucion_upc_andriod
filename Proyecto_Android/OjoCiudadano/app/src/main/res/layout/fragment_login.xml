@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/dimen_x1_100"
+        android:layout_height="@dimen/dimen_x1_100"
+        android:background="#c0c0c0"/>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:hint="@string/field_email"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginBottom="@dimen/dimen_x3_5"
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+            android:hint="@string/field_password"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_margin="0dp"
+        android:text="@string/button_login"
+        android:layout_alignParentBottom="true"
+        style="@style/SingleButton"/>
+
+    <TextView
+        android:text="@string/dont_have_account"
+        android:layout_marginTop="@dimen/dimen_x8_5"
+        style="@style/TextView"/>
+    <TextView
+        android:id="@+id/tv_create_account"
+        android:text="@string/create_account"
+        style="@style/TextView"/>
+    <!--
+    <TextView
+        android:text="@string/forgot_password"
+        android:layout_marginTop="@dimen/dimen_x8_5"
+        style="@style/TextView"/>
+
+    <TextView
+        android:id="@+id/tv_remember_email"
+        android:text="@string/send_remember_email"
+        style="@style/TextView"/>
+    -->
+</LinearLayout>

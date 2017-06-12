@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <!-- Logo Start -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="4dip"
+        android:contentDescription="@string/logoDescription"
+        android:src="@drawable/check_android" />
+    <!-- Logo Ends -->
+
+    <TextView
+        android:id="@+id/tv_title_complaint_success"
+        style="@style/BoldText"
+        android:text="@string/title_success_complaint" />
+
+    <TextView
+        android:id="@+id/lblBodyWelcome"
+        style="@style/TextView"
+        android:text="@string/sub_title_identify_complaint" />
+
+    <TextView
+        android:id="@+id/idTxtIdCode"
+        style="@style/TextView"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" />
+
+    <TextView
+        android:id="@+id/lblThankYou"
+        style="@style/TextView"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/welcomeMessagesThankYou" />
+
+    <TextView
+        android:id="@+id/lblCoomingSoon"
+        style="@style/TextView"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/comming_soon" />
+
+    <!-- Redirect to Menu Principal -->
+
+    <Button
+        android:id="@+id/ok_button"
+        style="@style/SingleButton"
+        android:text="@string/button_menu_principal"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">OjoCiudadano</string>
+    <string name="title_activity_login">OjoVial - Logueo</string>
+    <string name="button_continue">Siguiente</string>
+    <string name="button_finish">Finalizar</string>
+    <string name="title_soon">Proximamente</string>
+    <string name="url_web_page">http://www.ojociudadano.com</string>
+
+
+    <!-- Login -->
+    <string name="title_login">Login</string>
+    <string name="field_email">Correo electrónico</string>
+    <string name="field_password">Contraseña</string>
+    <string name="button_login">Iniciar Sesión</string>
+    <string name="create_account">Crearse una cuenta</string>
+    <string name="dont_have_account">¿No tiene una cuenta?</string>
+    <string name="logoDescription">Logo Ojo Vial</string>
+
+    <!-- Welcome User -->
+    <string name="title_1_welcome">Bienvenido</string>
+    <string name="title_welcome_user">Registro realizado con éxito</string>
+    <string name="sub_title_welcome_user">Inicie sesión y comience a regitrar sus denuncias</string>
+    <string name="welcomeMessagesThankYou">¡Gracias por colaborar con Ojo Vial!</string>
+
+    <!-- Intro -->
+    <string name="title_welcome">Bienvenido a Ojo Ciudadano</string>
+    <string name="sub_title_messages">Ayudenos a mejorar la ciudad</string>
+
+    <!-- Register -->
+    <string name="title_register">Registro de Usuario</string>
+    <string name="field_password_confirm">Repetir Contraseña</string>
+    <string name="field_names">Nombres</string>
+    <string name="field_last_names">Apellidos</string>
+    <string name="field_dni">Documento de Identidad</string>
+    <string name="button_register">Registrar</string>
+
+    <!-- Menu Settings -->
+    <string name="menu_denunce">Denunciar</string>
+    <string name="menu_my_denunce">Mis Denuncias</string>
+    <string name="menu_my_profile">Mis Datos</string>
+    <string name="menu_recomendation">Recomendaciones</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Take Photo -->
+    <string name="title_take_photo">Paso 1</string>
+    <string name="sub_title_take_photo">Tome las fotos necesarias para la denuncia.</string>
+
+    <!-- Complete Conplaint -->
+    <string name="title_complete_complaint">Paso 2</string>
+    <string name="sub_title_complete_complain">Ingrese número de placa de vehículo</string>
+    <string name="field_license_plate_number">Ejemplo: jpk591</string>
+    <string name="address_automatly">Dirección automática</string>
+    <string name="additional_comment">Comentarios Adicionales</string>
+    <string name="view_time">Hora :</string>
+
+    <!-- Complaint Success -->
+    <string name="title_success_complaint">Denuncia registrada</string>
+    <string name="sub_title_identify_complaint">El identificador de tu denuncia es :</string>
+    <string name="comming_soon">Próximamente tu colaboración será recompensada</string>
+    <string name="button_menu_principal">Menú principal</string>
+
+    <!-- Zoom -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+
+    <!-- My Complaint -->
+    <string name="title_my_complaint">Mis Denuncias</string>
+    <string name="sub_title_imy_complaint">Actualmente solo se encuentra disponible desde la web.\nPor favor ingresar desde un navegador a : \n\n  </string>
+
+    <!-- My Account -->
+    <string name="button_update">Actualizar</string>
+    <string name="title_update">Actualizar Datos</string>
+    <string name="chk_update_pwd">¿Desea Actualizar su contraseña?</string>
+    <!-- Success Update User Page -->
+    <string name="sucess_update_user">Actualización Exitosa</string>
+    <string name="sucess_update_user_body">Su información ha sido actualizada de manera exitosa</string>
+
+    <!--  My Recommendation -->
+    <string name="title_recommendation">Recomendaciones</string>
+    <string name="sub_title_recommendation_1">Recomendacion 1 :</string>
+    <string name="recommendation_1">Solo utilice el app para denunciar infracciones vehiculares, no serán procesadas otras denuncias que no estén relacionadas.</string>
+    <string name="sub_title_recommendation_2">Recomendacion 2 :</string>
+    <string name="recommendation_2">Por ningún motivo exponga su vida, ni integridad física para capturar una infracción.\n</string>
+    <string name="sub_title_recommendation_3">Recomendacion 3 :</string>
+    <string name="recommendation_3">Tome las fotos necesarias para evidenciar claramente la infracción en que se aprecie nítidamente la placa del vehículo, de esa manera no quedarán dudas yservirá de sustento para su denuncia. \n\n</string>
+    <string name="signature_ojo_vial">Equipo de Ojo Vial</string>
+</resources>
+
+

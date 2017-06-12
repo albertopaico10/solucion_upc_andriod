@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:gravity="center">
+
+    <!-- Logo Start -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="4dip"
+        android:src="@drawable/check_android" />
+    <!-- Logo Ends -->
+
+
+    <!-- Mensaje de extito -->
+    <TextView
+        android:id="@+id/lblTitleWelcome"
+        android:layout_marginTop="@dimen/dimen_x4_5"
+        android:text="@string/title_welcome_user"
+        android:gravity="center"
+        style="@style/BoldText"/>
+
+    <TextView
+        android:id="@+id/lblBodyWelcome"
+        style="@style/TextView"
+        android:text="@string/sub_title_welcome_user"
+        android:gravity="center"/>
+
+    <!-- Redirect to login -->
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_marginTop="@dimen/dimen_x4_5"
+        android:onClick="onOkClick"
+        android:text="@string/button_login"
+        android:textAllCaps="false"
+        style="@style/SingleButton"/>
+
+</LinearLayout>
