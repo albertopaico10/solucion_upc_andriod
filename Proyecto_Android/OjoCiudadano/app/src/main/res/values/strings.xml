@@ -6,6 +6,7 @@
     <string name="title_soon">Proximamente</string>
     <string name="url_web_page">http://www.ojociudadano.com</string>
 
+    <string name="field_name">Nombre y Apellido</string>
 
     <!-- Login -->
     <string name="title_login">Login</string>
@@ -20,7 +21,7 @@
     <string name="title_1_welcome">Bienvenido</string>
     <string name="title_welcome_user">Registro realizado con éxito</string>
     <string name="sub_title_welcome_user">Inicie sesión y comience a regitrar sus denuncias</string>
-    <string name="welcomeMessagesThankYou">¡Gracias por colaborar con Ojo Vial!</string>
+    <string name="welcomeMessagesThankYou">¡Gracias por colaborar con Ojo Ciudadano!</string>
 
     <!-- Intro -->
     <string name="title_welcome">Bienvenido a Ojo Ciudadano</string>
@@ -50,7 +51,7 @@
 
     <!-- Complete Conplaint -->
     <string name="title_complete_complaint">Paso 2</string>
-    <string name="sub_title_complete_complain">Ingrese número de placa de vehículo</string>
+    <string name="sub_title_complete_complain">Si desea ingrese su nombre</string>
     <string name="field_license_plate_number">Ejemplo: jpk591</string>
     <string name="address_automatly">Dirección automática</string>
     <string name="additional_comment">Comentarios Adicionales</string>

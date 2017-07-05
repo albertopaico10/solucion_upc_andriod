@@ -19,7 +19,7 @@
 
         <EditText
             android:id="@+id/et_license_plate_number"
-            android:hint="@string/field_license_plate_number"
+            android:hint="@string/field_name"
             style="@style/EditTextField"/>
 
     </android.support.design.widget.TextInputLayout>
