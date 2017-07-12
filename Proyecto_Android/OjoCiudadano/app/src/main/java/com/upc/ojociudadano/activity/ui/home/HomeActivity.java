@@ -15,6 +15,8 @@ import android.widget.Toast;
 import com.upc.ojociudadano.activity.R;
 import com.upc.ojociudadano.activity.common.BaseActivity;
 import com.upc.ojociudadano.activity.ui.PublicActivity;
+import com.upc.ojociudadano.activity.ui.account.AccountActivity;
+import com.upc.ojociudadano.activity.ui.recomendation.RecomendationActivity;
 import com.upc.ojociudadano.activity.ui.register.RegisterComplaintActivity;
 
 import butterknife.Bind;
@@ -76,9 +78,11 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
                 Toast.makeText(HomeActivity.this,"Mis Datos - Pending", Toast.LENGTH_LONG).show();
                 break;
             case R.id.nav_my_profile:
+                startActivity(AccountActivity.makeIntent(HomeActivity.this));
                 Toast.makeText(HomeActivity.this,"Mis Datos - Pending", Toast.LENGTH_LONG).show();
                break;
             case R.id.nav_recomendation:
+                startActivity(RecomendationActivity.makeIntent(HomeActivity.this));
                 Toast.makeText(HomeActivity.this,"Recomendaciones - Pending", Toast.LENGTH_LONG).show();
                 break;
             default:
