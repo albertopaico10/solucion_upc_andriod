@@ -61,6 +61,6 @@ public class LoginFragment extends BaseFragment {
 
     @OnClick(R.id.tv_create_account)
     public void registerAccount(){
-        Toast.makeText(getContext(),"Pending Creation",Toast.LENGTH_LONG).show();
+        mInteractionListener.replaceFragment(RegisterFragment.newInstance(), true);
     }
 }

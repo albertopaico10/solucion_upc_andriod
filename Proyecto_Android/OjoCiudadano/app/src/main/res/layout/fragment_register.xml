@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+    <EditText
+        android:id="@+id/et_email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/field_email"
+        style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+            android:hint="@string/field_password"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_password_confirm"
+            android:inputType="textPassword"
+            android:hint="@string/field_password_confirm"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_names"
+            android:hint="@string/field_names"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:hint="@string/field_last_names"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/TextInput">
+
+        <EditText
+            android:id="@+id/et_dni"
+            android:hint="@string/field_dni"
+            style="@style/EditTextField"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_margin="0dp"
+        android:text="@string/button_register"
+        android:layout_alignParentBottom="true"
+        style="@style/SingleButton"/>
+
+</LinearLayout>
